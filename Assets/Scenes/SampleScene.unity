@@ -300,6 +300,7 @@ GameObject:
   - component: {fileID: 437984035}
   - component: {fileID: 437984037}
   - component: {fileID: 437984036}
+  - component: {fileID: 437984038}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -477,6 +478,22 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &437984038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437984031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: bc0abd8e1873e4fd98718c0358084fe3, type: 2}
 --- !u!1 &491397604
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,7 +849,7 @@ GameObject:
   - component: {fileID: 1929235069}
   - component: {fileID: 1929235068}
   - component: {fileID: 1929235070}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
